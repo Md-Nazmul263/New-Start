@@ -1,0 +1,31 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #1064ad;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.intro, .character {
+  padding: 20px;
+}
+
+.character img {
+  width: 50px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #ddd;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}

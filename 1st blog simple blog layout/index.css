@@ -1,0 +1,62 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    /* Light background for the entire page */
+}
+
+header{
+    background-color: #6a1b9a; 
+    /* Vibrant purple header */
+    color: #ffffff;
+    text-align: center;
+    padding: 1 cm 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+    background-color: #ffffff; /* White background for the main content */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corner for the main content area */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1); /* sublet shadow for depth */
+
+}
+
+article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee; /* separator for articles */
+}
+
+article h2 {
+    color: #333333; /* dark text for titles */
+    margin-bottom: 10px;
+}
+
+article p {
+    background-color: #666666; /* lighter text for the body */
+    line-height: 1.6; /*improved readability */
+}
+footer {
+    background-color: #6a1b9a; /* matching the header's vibrant purple */
+    color: #ffffff;
+    text-align: center;
+    padding: 1cm 0;
+}
