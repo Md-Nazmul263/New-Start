@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 10px;
+    font-family: cursive;
+    line-height: 1.6;
+    background-color: antiquewhite;
+}
+.image {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 45%;
+    border: 1.5px solid black;
+}
+.name {
+    text-align: center;
+    
+}
+.name p {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+.more {
+    float: right;
+    margin-right: 40px;
+}
+.more a:link {
+    color: #a5258b;
+}
+.more a:visited {
+    color: chocolate;
+}
+.more a:hover {
+    color: darkblue;
+}
+.more a:active {
+    color: #0088ff;
+}
+@media (max-width:500px) {
+    .image img {
+        width: 275px;
+        height: 275px;
+    }
+}
+@media (max-width:350px) {
+    .image img {
+        width: 150px;
+        height: 150px;
+    }
+}
