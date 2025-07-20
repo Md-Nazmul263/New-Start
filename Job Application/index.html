@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Nazmul Hasan">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application</title>
+</head>
+<body>
+    <div class="parent">
+        <h1>Job Application</h1>
+        <br>
+        <div class="name">
+            <div class="first">
+            <label for="first-name">First Name</label><br>
+            <textarea name="first-name"></textarea>
+            </div>
+            
+            <div class="last">
+            <label for="last-name">Last Name</label><br>
+            <textarea name="last-name"></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="email">
+            <div class="mail">
+            <label for="email">Enter your Email</label><br>
+            <textarea name="Email"></textarea>
+            </div>
+            <br>
+            <div class="pstn">
+                <label for="position">Your Position</label> <br>
+            <select name="position">
+                <option value="Senior"> Senior Developer</option>
+                <option value="assistant">Assistant Senior Developer</option>
+                <option value="junior">Junior Developer</option>
+                <option value="intern">Intern</option>
+            </select>
+            </div>
+        </div>
+        <br>
+        <div class="address">
+            <label for="address">Your Address</label><br>
+            <textarea name="address" rows="8" cols="60" ></textarea>
+            <br>
+        </div>
+        <br>
+        <div class="city">
+            <div class="cname">
+            <label for="city">Your City Name</label><br>
+            <textarea name="city"></textarea>
+            </div>
+            <br>
+            <div class="pcode">
+                <label for="pincode">Pincode</label><br>
+            <textarea name="pincode"></textarea>
+            </div>
+        </div>
+        <br>
+        <label for="date">Joining Date</label><br>
+        <input type="date" name="date" id="date">
+        <br>
+        <br>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="fileUpload">Select a file:</label><br>
+        <input type="file" id="fileUpload" name="uploadedFile"><br>
+        <button type="submit">Upload</button>
+        <br>
+        <br>
+        <br>
+        <button id="sub" type="submit">Apply</button>
+</form>
+    </div>
+</body>
+</html>
