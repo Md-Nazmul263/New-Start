@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+.img-cntr {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img-cntr img {
+    width: 100%;
+    height: 500px;
+}
+.text {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.text:hover {
+    color: rgb(2, 2, 10);
+}
+.text-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: deepskyblue;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.big {
+    font-size: 70px;
+}
+.container {
+    display: flex;
+}
+.container img {
+    width: 350px;
+}
+.section-1, .section-2, .section-3 {
+    flex: 1;
+    padding: 10px;
+}
+.section-1 {
+    background-color: aqua;
+    border-radius: 10px;
+}
+.section-2 {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.section-3 {
+    background-color: rgb(84, 215, 172);
+    border-radius: 10px;
+}
+.container-2 {
+    display: flex;
+}
+.article-1, .article-2 {
+    flex: 1;
+    padding: 10px;
+}
+.article-1 {
+    background-color: teal;
+    border-radius: 10px;
+    height: 350px;
+    /* margin-left: 10px; */
+    font-size: xx-large;
+    font-weight: bold;
+}
+.article-1 a {
+    display: block;
+    line-height: 60px;
+}
+.article-1 a {
+    color:#00eaff
+}
+.a-1:hover {
+    color: yellow;
+}
+.a-2:hover {
+    color: #00ff40;
+}
+.a-3:hover {
+    color: tomato;
+}
+.article-2 {
+    background-color: seagreen;
+    border-radius: 10px;
+    height: 350px;
+    font-size: 20px;
+    /* margin-right: 10px; */
+}
+.article-2 h3 {
+    font-size: xx-large;
+}
+.foot {
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color:steelblue;
+    color: white;
+    /* margin-top: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot p:hover {
+    color: black;
+    font-size: 50px;
+    font-family: cursive;
+}
